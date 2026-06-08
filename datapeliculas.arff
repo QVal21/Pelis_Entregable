@@ -1,0 +1,56 @@
+@relation streamflix
+
+@attribute genero_favorito {accion,romance,terror,comedia,drama,ciencia_ficcion}
+@attribute idioma {español,ingles}
+@attribute genero_pelicula {accion,romance,terror,comedia,drama,ciencia_ficcion}
+@attribute duracion {corta,media,larga}
+@attribute rating_promedio numeric
+@attribute calificacion numeric
+@attribute recomendar {si,no}
+
+@data
+accion,español,accion,larga,4.5,5,si
+accion,español,accion,larga,4.3,4,si
+accion,español,accion,media,4,4,si
+romance,español,romance,media,4.2,5,si
+romance,español,romance,media,3.9,4,si
+romance,español,drama,media,4.4,5,si
+terror,español,terror,media,3.8,4,si
+terror,español,terror,corta,3.5,3,no
+terror,español,terror,larga,4.2,5,si
+comedia,español,comedia,corta,4,5,si
+comedia,español,comedia,media,4.1,4,si
+comedia,español,comedia,corta,3.7,4,si
+accion,ingles,ciencia_ficcion,larga,4.7,5,si
+accion,ingles,ciencia_ficcion,larga,4.6,5,si
+accion,ingles,ciencia_ficcion,media,4.5,4,si
+drama,español,drama,media,4.4,5,si
+drama,español,romance,media,4.2,4,si
+drama,español,romance,media,3.9,3,no
+ciencia_ficcion,ingles,ciencia_ficcion,larga,4.7,4,si
+ciencia_ficcion,ingles,ciencia_ficcion,larga,4.6,5,si
+ciencia_ficcion,ingles,ciencia_ficcion,media,4.5,5,si
+romance,español,romance,media,4.2,5,si
+romance,español,romance,media,3.9,4,si
+romance,español,drama,media,4.4,4,si
+terror,español,terror,media,3.8,5,si
+terror,español,terror,corta,3.5,4,si
+terror,español,terror,larga,4.2,5,si
+comedia,español,comedia,corta,4,4,si
+comedia,español,comedia,media,4.1,5,si
+comedia,español,comedia,corta,3.7,3,no
+accion,ingles,accion,larga,4.5,5,si
+accion,ingles,accion,larga,4.3,5,si
+accion,ingles,accion,media,4,4,si
+drama,español,drama,media,4.4,5,si
+drama,español,romance,media,4.2,4,si
+drama,español,romance,media,3.9,5,si
+ciencia_ficcion,ingles,ciencia_ficcion,larga,4.7,5,si
+ciencia_ficcion,ingles,ciencia_ficcion,larga,4.6,4,si
+ciencia_ficcion,ingles,ciencia_ficcion,media,4.5,5,si
+romance,español,romance,media,4.2,4,si
+romance,español,romance,media,3.9,5,si
+romance,español,drama,media,4.4,4,si
+terror,español,terror,media,3.8,4,si
+terror,español,terror,corta,3.5,5,si
+terror,español,terror,larga,4.2,4,si
