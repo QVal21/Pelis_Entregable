@@ -21,7 +21,6 @@ public class DataSetPeliculasUtil {
 
         ArrayList<Attribute> atributos = new ArrayList<>();
 
-        // genero favorito del usuario
         ArrayList<String> generosUsuario = new ArrayList<>();
         generosUsuario.add("accion");
         generosUsuario.add("romance");
@@ -31,13 +30,11 @@ public class DataSetPeliculasUtil {
         generosUsuario.add("ciencia_ficcion");
         atributos.add(new Attribute("genero_favorito", generosUsuario));
 
-        // idioma del usuario
         ArrayList<String> idiomas = new ArrayList<>();
         idiomas.add("español");
         idiomas.add("ingles");
         atributos.add(new Attribute("idioma", idiomas));
 
-        // genero de la pelicula
         ArrayList<String> generosPelicula = new ArrayList<>();
         generosPelicula.add("accion");
         generosPelicula.add("romance");
@@ -47,20 +44,16 @@ public class DataSetPeliculasUtil {
         generosPelicula.add("ciencia_ficcion");
         atributos.add(new Attribute("genero_pelicula", generosPelicula));
 
-        // duracion de la pelicula
         ArrayList<String> duraciones = new ArrayList<>();
         duraciones.add("corta");
         duraciones.add("media");
         duraciones.add("larga");
         atributos.add(new Attribute("duracion", duraciones));
 
-        // rating promedio (numerico)
         atributos.add(new Attribute("rating_promedio"));
 
-        // calificacion del usuario (numerico)
         atributos.add(new Attribute("calificacion"));
 
-        // vio completa (clase a predecir)
         ArrayList<String> vioCompleta = new ArrayList<>();
         vioCompleta.add("si");
         vioCompleta.add("no");
